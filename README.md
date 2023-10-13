@@ -22,6 +22,7 @@ git push -u origin main
 * Создать в интерфейсе и затем клонировать на локальную машину
 
 _Создать в интерфейсе репозиторий_
+
 `git clone https://github.com/artsharoglazov/name.git`
 
 ## How-To
