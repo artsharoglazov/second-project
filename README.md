@@ -45,10 +45,10 @@ git log --oneline
 
 ## Схема статусов файла
 
-```mermind
+```mermiad
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "git commit"     --> tracked/comitted;
+  staged    -- "git commit" --> tracked/comitted;
 ```
 
 ## How-To
