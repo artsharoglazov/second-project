@@ -43,6 +43,14 @@ git log --oneline
 ## Метка HEAD
 Метка HEAD всегда указывает на последний коммит. Сама метка это файл HEAD, корый рамположен *.git/HEAD*. В нем - ссылка на файл *.git/refs/head/brancname*, а в этом файле уже прописан хэш коммита. 
 
+## Схема статусов файла
+
+```mermind
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+```
+
 ## How-To
 * Как изменить имя ветки с main на master в локальном и удаленном репозитроии
 ```
