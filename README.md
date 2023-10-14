@@ -45,7 +45,7 @@ git log --oneline
 
 ## Схема статусов файла
 
-```mermiad
+```mermaid
 graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit" --> tracked/comitted;
