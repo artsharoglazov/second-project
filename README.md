@@ -25,6 +25,13 @@ _Создать в интерфейсе репозиторий_
 
 `git clone https://github.com/artsharoglazov/name.git`
 
+## Добавление на удаленный репозиторий
+```
+git add [filename]or[.]or[--all]
+git commit -m "note"
+git push
+```
+
 ## How-To
 * Как изменить имя ветки с main на master в локальном и удаленном репозитроии
 ```
